@@ -1,0 +1,79 @@
+#logo {
+  display: inline;
+  width: 50px;
+}
+body {
+  font-family: "Helvetica";
+}
+div.a {
+  font-size: 5em;
+}
+#header {
+  display: inline;
+}
+
+.halfRight {
+  width: 50%;
+  float: left;
+  height: 500px;
+}
+.halfLeft {
+  box-sizing: border-box;
+}
+.half-paragraph {
+  background-color: white;
+  padding: 3%;
+  margin: 1%;
+ 
+}
+#QR {
+  height: 210px;
+  float: right
+}
+#travel {
+  width: 100%;
+}
+* {
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+}
+
+/* Create two columns/boxes that floats next to each other */
+.left-column {
+  float: left;
+  width: 25%;
+  padding: 3%;
+  height: auto; /* only for demonstration, should be removed */
+  background: skyblue;
+}
+
+.right-column {
+  float: right;
+  width: 60%;
+  height: auto
+  padding: 4%;
+  background-color: #f1f1f1;
+}
+
+.bottompic{
+  height: auto;
+  width: 100%;
+}
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+}
